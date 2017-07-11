@@ -14,6 +14,8 @@
 		4C3D53381E0871CF00E3E4FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C3D53361E0871CF00E3E4FF /* LaunchScreen.storyboard */; };
 		4C3D53431E0871D000E3E4FF /* BrokenToaster2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3D53421E0871D000E3E4FF /* BrokenToaster2Tests.swift */; };
 		4C3D534E1E0871D000E3E4FF /* BrokenToaster2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3D534D1E0871D000E3E4FF /* BrokenToaster2UITests.swift */; };
+		4C3D535C1E08722900E3E4FF /* Toaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3D535B1E08722900E3E4FF /* Toaster.swift */; };
+		4C3D535E1E08754600E3E4FF /* ToasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3D535D1E08754600E3E4FF /* ToasterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		4C3D53491E0871D000E3E4FF /* BrokenToaster2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrokenToaster2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C3D534D1E0871D000E3E4FF /* BrokenToaster2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrokenToaster2UITests.swift; sourceTree = "<group>"; };
 		4C3D534F1E0871D000E3E4FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C3D535B1E08722900E3E4FF /* Toaster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toaster.swift; sourceTree = "<group>"; };
+		4C3D535D1E08754600E3E4FF /* ToasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToasterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				4C3D53341E0871CF00E3E4FF /* Assets.xcassets */,
 				4C3D53361E0871CF00E3E4FF /* LaunchScreen.storyboard */,
 				4C3D53391E0871CF00E3E4FF /* Info.plist */,
+				4C3D535B1E08722900E3E4FF /* Toaster.swift */,
+				4C3D535D1E08754600E3E4FF /* ToasterViewController.swift */,
 			);
 			path = BrokenToaster2;
 			sourceTree = "<group>";
@@ -264,6 +270,8 @@
 			files = (
 				4C3D53301E0871CF00E3E4FF /* ViewController.swift in Sources */,
 				4C3D532E1E0871CF00E3E4FF /* AppDelegate.swift in Sources */,
+				4C3D535C1E08722900E3E4FF /* Toaster.swift in Sources */,
+				4C3D535E1E08754600E3E4FF /* ToasterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
